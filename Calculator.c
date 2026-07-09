@@ -160,7 +160,7 @@ int scd_gcd(){
         }
         min--;
     }
-    size = sizeof(divisors);
+    size = sizeof(divisors)/4;
     if(size==1){
         printf("The SCD and GCD are: %d",divisors[0]);
     }if(size==2){
