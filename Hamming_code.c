@@ -21,9 +21,9 @@ int main(){
     data[7]= data[4]^data[5]^data[6];
     data[3]= data[0]^data[1]^data[2];
 
-    printf("The binary number now is: \n");
+    printf("The binary number now is: ");
     for(i=0;i<11;i++){
-        printf("%d\t",data[i]);
+        printf("%d ",data[i]);
     }
 
     return 0;
